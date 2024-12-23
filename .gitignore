@@ -1,0 +1,48 @@
+# Build output
+/build/
+/cmake-build-*/
+
+# Object and binary files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.out
+
+# CMake specific files
+CMakeCache.txt
+CMakeFiles/
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+.project
+.cproject
+*.iml
+
+# Temporary and backup files
+*~
+*.bak
+*.swp
+
+# Log files
+*.log
+
+# Test artifacts
+*.gcda
+*.gcno
+*.prof
+tests/output/
+
+# External dependencies or libraries
+external/
+dependencies/
+
+# Environment files
+.env
+
+# Git submodule files (if applicable)
+.gitmodules
